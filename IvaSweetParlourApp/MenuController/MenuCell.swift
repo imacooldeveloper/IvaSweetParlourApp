@@ -10,6 +10,18 @@ import UIKit
 
 class MenuCell: UITableViewCell {
     
+    var menu: String? {
+        didSet {
+            guard let menuName = menu else { return }
+//
+//
+            for menu in menuName {
+                 self.menuName.text = menuName
+            }
+            
+        }
+    }
+    
     
     var menuPicture: UIImageView = {
         let imageView = UIImageView()
@@ -42,7 +54,7 @@ class MenuCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
-        
+           
         backgroundColor = .clear // very important
         layer.masksToBounds = false
         layer.shadowOpacity = 0.23
@@ -53,22 +65,29 @@ class MenuCell: UITableViewCell {
         // add corner radius on `contentView`
         contentView.backgroundColor = #colorLiteral(red: 0.9989239573, green: 0.7055645585, blue: 0.7074396014, alpha: 1)
         contentView.layer.cornerRadius = 8
-        
+        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 80, left: 80, bottom: 80, right: 80))
 //        addSubview(menuBackgroundView)
 //        menuBackgroundView.anchor(top: topAnchor, leading: leadingAnchor, bottom: bottomAnchor, trailing: trailingAnchor)
         
       addSubview(menuPicture)
-        menuPicture.anchor(top: topAnchor, leading: leadingAnchor, bottom: bottomAnchor, trailing: nil, padding: .init(top: 10, left: 10, bottom: 10, right: 0), size: .init(width: 82, height: 0))
+        menuPicture.anchor(top: safeAreaLayoutGuide.topAnchor, leading: leadingAnchor, bottom: bottomAnchor, trailing: nil, padding: .init(top: 10, left: 10, bottom: 10, right: 0), size: .init(width: 82, height: 0))
         
         addSubview(menuName)
         menuName.textAlignment = .center
-        menuName.textColor = #colorLiteral(red: 0.17772156, green: 0.2637533545, blue: 0.2259667814, alpha: 1)
+        menuName.textColor = #colorLiteral(red: 0.6295551062, green: 1, blue: 0.8291313052, alpha: 1)
         menuName.anchor(top: menuPicture.topAnchor , leading: menuPicture.trailingAnchor, bottom: menuPicture.bottomAnchor, trailing: nil, padding: .init(top: 20, left: 50, bottom: 10, right: 0), size: .init(width: 0, height: 0))
-        
+//        let padding = UIEdgeInsets(top: 100, left: 0, bottom: 100, right: 0)
+//        bounds = bounds.inset(by: padding)
+//
 //        menuPicture.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         
         
     }
+//    override func layoutSubviews() {
+//        super.layoutSubviews()
+//        let padding = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+//        bounds = bounds.inset(by: padding)
+//    }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

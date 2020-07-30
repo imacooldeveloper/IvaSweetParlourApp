@@ -120,3 +120,45 @@ extension UILabel {
         self.font = font
     }
 }
+class PlaceHolders: UITextField {
+ override init(frame: CGRect) {
+     super.init(frame: frame)
+     
+     contentMode = .center
+     borderStyle = .roundedRect
+     backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+     
+ }
+ 
+ required init?(coder aDecoder: NSCoder) {
+     fatalError("init(coder:) has not been implemented")
+ }
+ 
+
+ }
+class AddToCartBTN: UIButton {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+       
+               
+                
+                backgroundColor = #colorLiteral(red: 0.516300559, green: 0.8177587986, blue: 0.6682328582, alpha: 1)
+        setTitleColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1), for: .normal)
+        titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .medium)
+        
+               layer.cornerRadius = 10
+                layer.shadowColor = UIColor.black.cgColor
+                   layer.shadowOffset = CGSize(width: 2, height: 2)
+                   layer.shadowRadius = 5
+                   layer.shadowOpacity = 1.0
+              
+                
+             
+
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}

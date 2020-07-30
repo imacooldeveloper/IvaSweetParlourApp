@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38AAAF7E2DE1D7361B12DDE9 /* Pods_IvaSweetParlourAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5A87A851D03CDFFE867A05 /* Pods_IvaSweetParlourAppTests.framework */; };
+		5B39239C2477F8BA00C8C4D6 /* CartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39239B2477F8BA00C8C4D6 /* CartController.swift */; };
 		5B5D78582449F60C007E154C /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D78572449F60C007E154C /* MenuCell.swift */; };
 		5B5D785B2449F6DD007E154C /* ViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D785A2449F6DD007E154C /* ViewExtentions.swift */; };
 		5BBC2BAD2449E97300022CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC2BAC2449E97300022CEC /* AppDelegate.swift */; };
@@ -18,6 +20,14 @@
 		5BBC2BC42449E97400022CEC /* IvaSweetParlourAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC2BC32449E97400022CEC /* IvaSweetParlourAppTests.swift */; };
 		5BBC2BCF2449E97400022CEC /* IvaSweetParlourAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC2BCE2449E97400022CEC /* IvaSweetParlourAppUITests.swift */; };
 		5BBC2BDE2449E99B00022CEC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC2BDD2449E99B00022CEC /* MenuController.swift */; };
+		5BBC425D2476A81200D40663 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC425C2476A81200D40663 /* Menu.swift */; };
+		5BBC42632476ABD300D40663 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC42622476ABD300D40663 /* GoogleService-Info.plist */; };
+		5BBC42652476C2AD00D40663 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC42642476C2AD00D40663 /* CategoryController.swift */; };
+		5BBC42682476D03700D40663 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC42672476D03700D40663 /* CategoryCell.swift */; };
+		5BBC426A2476D82B00D40663 /* Cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC42692476D82B00D40663 /* Cookies.swift */; };
+		5BBC426D2476DBBB00D40663 /* SelectedItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC426C2476DBBB00D40663 /* SelectedItemController.swift */; };
+		E60E6556C45DA9B68362FC1F /* Pods_IvaSweetParlourApp_IvaSweetParlourAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B15B8B39E466BDC9AE5136A /* Pods_IvaSweetParlourApp_IvaSweetParlourAppUITests.framework */; };
+		FDEA7060D24D9F74E90322F2 /* Pods_IvaSweetParlourApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE377FA5D0A0E79BD0C4F8AA /* Pods_IvaSweetParlourApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B15B8B39E466BDC9AE5136A /* Pods_IvaSweetParlourApp_IvaSweetParlourAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvaSweetParlourApp_IvaSweetParlourAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC7E69699EB008525440DD0 /* Pods-IvaSweetParlourAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvaSweetParlourAppTests.release.xcconfig"; path = "Target Support Files/Pods-IvaSweetParlourAppTests/Pods-IvaSweetParlourAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B39239B2477F8BA00C8C4D6 /* CartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartController.swift; sourceTree = "<group>"; };
 		5B5D78572449F60C007E154C /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		5B5D785A2449F6DD007E154C /* ViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtentions.swift; sourceTree = "<group>"; };
 		5BBC2BA92449E97300022CEC /* IvaSweetParlourApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IvaSweetParlourApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +68,19 @@
 		5BBC2BCE2449E97400022CEC /* IvaSweetParlourAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvaSweetParlourAppUITests.swift; sourceTree = "<group>"; };
 		5BBC2BD02449E97400022CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BBC2BDD2449E99B00022CEC /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		5BBC425C2476A81200D40663 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		5BBC42622476ABD300D40663 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BBC42642476C2AD00D40663 /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		5BBC42672476D03700D40663 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5BBC42692476D82B00D40663 /* Cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookies.swift; sourceTree = "<group>"; };
+		5BBC426C2476DBBB00D40663 /* SelectedItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemController.swift; sourceTree = "<group>"; };
+		620C36710BE9C8F5FB23D1E0 /* Pods-IvaSweetParlourApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvaSweetParlourApp.debug.xcconfig"; path = "Target Support Files/Pods-IvaSweetParlourApp/Pods-IvaSweetParlourApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE05D6A9AAAF02BD7D4A7EA /* Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7807D0025434761B6DC7284F /* Pods-IvaSweetParlourAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvaSweetParlourAppTests.debug.xcconfig"; path = "Target Support Files/Pods-IvaSweetParlourAppTests/Pods-IvaSweetParlourAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8743A0453B0137368DA5B3F1 /* Pods-IvaSweetParlourApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvaSweetParlourApp.release.xcconfig"; path = "Target Support Files/Pods-IvaSweetParlourApp/Pods-IvaSweetParlourApp.release.xcconfig"; sourceTree = "<group>"; };
+		93A7ADE198F41E27CD60EA23 /* Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.release.xcconfig"; path = "Target Support Files/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF5A87A851D03CDFFE867A05 /* Pods_IvaSweetParlourAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvaSweetParlourAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE377FA5D0A0E79BD0C4F8AA /* Pods_IvaSweetParlourApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvaSweetParlourApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEA7060D24D9F74E90322F2 /* Pods_IvaSweetParlourApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AAAF7E2DE1D7361B12DDE9 /* Pods_IvaSweetParlourAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +104,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60E6556C45DA9B68362FC1F /* Pods_IvaSweetParlourApp_IvaSweetParlourAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B39239A2477F8AA00C8C4D6 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				5B39239B2477F8BA00C8C4D6 /* CartController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
 		5B5D78592449F6CE007E154C /* ExtentionUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +134,8 @@
 				5BBC2BC22449E97400022CEC /* IvaSweetParlourAppTests */,
 				5BBC2BCD2449E97400022CEC /* IvaSweetParlourAppUITests */,
 				5BBC2BAA2449E97300022CEC /* Products */,
+				E9BF8DC05365BAD0D30E88D0 /* Pods */,
+				9286469B5121A4EDF9A67E72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +152,9 @@
 		5BBC2BAB2449E97300022CEC /* IvaSweetParlourApp */ = {
 			isa = PBXGroup;
 			children = (
+				5B39239A2477F8AA00C8C4D6 /* Cart */,
+				5BBC42662476D02500D40663 /* Category */,
+				5BBC425B2476A80200D40663 /* Models */,
 				5B5D78592449F6CE007E154C /* ExtentionUI */,
 				5BBC2BDC2449E98400022CEC /* MenuController */,
 				5BBC2BAC2449E97300022CEC /* AppDelegate.swift */,
@@ -121,6 +163,7 @@
 				5BBC2BB22449E97300022CEC /* Main.storyboard */,
 				5BBC2BB52449E97400022CEC /* Assets.xcassets */,
 				5BBC2BB72449E97400022CEC /* LaunchScreen.storyboard */,
+				5BBC42622476ABD300D40663 /* GoogleService-Info.plist */,
 				5BBC2BBA2449E97400022CEC /* Info.plist */,
 			);
 			path = IvaSweetParlourApp;
@@ -153,6 +196,56 @@
 			path = MenuController;
 			sourceTree = "<group>";
 		};
+		5BBC425B2476A80200D40663 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC425C2476A81200D40663 /* Menu.swift */,
+				5BBC42692476D82B00D40663 /* Cookies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BBC42662476D02500D40663 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC426B2476DB9C00D40663 /* New Group */,
+				5BBC42642476C2AD00D40663 /* CategoryController.swift */,
+				5BBC42672476D03700D40663 /* CategoryCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5BBC426B2476DB9C00D40663 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC426C2476DBBB00D40663 /* SelectedItemController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9286469B5121A4EDF9A67E72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE377FA5D0A0E79BD0C4F8AA /* Pods_IvaSweetParlourApp.framework */,
+				4B15B8B39E466BDC9AE5136A /* Pods_IvaSweetParlourApp_IvaSweetParlourAppUITests.framework */,
+				BF5A87A851D03CDFFE867A05 /* Pods_IvaSweetParlourAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9BF8DC05365BAD0D30E88D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				620C36710BE9C8F5FB23D1E0 /* Pods-IvaSweetParlourApp.debug.xcconfig */,
+				8743A0453B0137368DA5B3F1 /* Pods-IvaSweetParlourApp.release.xcconfig */,
+				6EE05D6A9AAAF02BD7D4A7EA /* Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.debug.xcconfig */,
+				93A7ADE198F41E27CD60EA23 /* Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.release.xcconfig */,
+				7807D0025434761B6DC7284F /* Pods-IvaSweetParlourAppTests.debug.xcconfig */,
+				4EC7E69699EB008525440DD0 /* Pods-IvaSweetParlourAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBC2BD32449E97500022CEC /* Build configuration list for PBXNativeTarget "IvaSweetParlourApp" */;
 			buildPhases = (
+				A4B50297A2B6679281200978 /* [CP] Check Pods Manifest.lock */,
 				5BBC2BA52449E97300022CEC /* Sources */,
 				5BBC2BA62449E97300022CEC /* Frameworks */,
 				5BBC2BA72449E97300022CEC /* Resources */,
+				08815BE5C08EF448478F8623 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBC2BD62449E97500022CEC /* Build configuration list for PBXNativeTarget "IvaSweetParlourAppTests" */;
 			buildPhases = (
+				FAEEBBDE10C7F24B31E99269 /* [CP] Check Pods Manifest.lock */,
 				5BBC2BBB2449E97400022CEC /* Sources */,
 				5BBC2BBC2449E97400022CEC /* Frameworks */,
 				5BBC2BBD2449E97400022CEC /* Resources */,
@@ -195,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBC2BD92449E97500022CEC /* Build configuration list for PBXNativeTarget "IvaSweetParlourAppUITests" */;
 			buildPhases = (
+				2ED7F41B13DA09584BB18393 /* [CP] Check Pods Manifest.lock */,
 				5BBC2BC62449E97400022CEC /* Sources */,
 				5BBC2BC72449E97400022CEC /* Frameworks */,
 				5BBC2BC82449E97400022CEC /* Resources */,
+				8C0273C1717D38DF5465D4CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BBC2BB92449E97400022CEC /* LaunchScreen.storyboard in Resources */,
+				5BBC42632476ABD300D40663 /* GoogleService-Info.plist in Resources */,
 				5BBC2BB62449E97400022CEC /* Assets.xcassets in Resources */,
 				5BBC2BB42449E97300022CEC /* Main.storyboard in Resources */,
 			);
@@ -279,17 +378,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08815BE5C08EF448478F8623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvaSweetParlourApp/Pods-IvaSweetParlourApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvaSweetParlourApp/Pods-IvaSweetParlourApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IvaSweetParlourApp/Pods-IvaSweetParlourApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ED7F41B13DA09584BB18393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0273C1717D38DF5465D4CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests/Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B50297A2B6679281200978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvaSweetParlourApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEEBBDE10C7F24B31E99269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvaSweetParlourAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BBC2BA52449E97300022CEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5BBC2BDE2449E99B00022CEC /* MenuController.swift in Sources */,
+				5B39239C2477F8BA00C8C4D6 /* CartController.swift in Sources */,
 				5B5D78582449F60C007E154C /* MenuCell.swift in Sources */,
+				5BBC425D2476A81200D40663 /* Menu.swift in Sources */,
 				5BBC2BB12449E97300022CEC /* ViewController.swift in Sources */,
 				5B5D785B2449F6DD007E154C /* ViewExtentions.swift in Sources */,
+				5BBC426A2476D82B00D40663 /* Cookies.swift in Sources */,
+				5BBC42682476D03700D40663 /* CategoryCell.swift in Sources */,
 				5BBC2BAD2449E97300022CEC /* AppDelegate.swift in Sources */,
+				5BBC426D2476DBBB00D40663 /* SelectedItemController.swift in Sources */,
 				5BBC2BAF2449E97300022CEC /* SceneDelegate.swift in Sources */,
+				5BBC42652476C2AD00D40663 /* CategoryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,17 +668,18 @@
 		};
 		5BBC2BD42449E97500022CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620C36710BE9C8F5FB23D1E0 /* Pods-IvaSweetParlourApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N5JJCZ7Z7Z;
+				DEVELOPMENT_TEAM = CRW6VYDHKQ;
 				INFOPLIST_FILE = IvaSweetParlourApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Iva.IvaSweetParlourApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Iva.IvaSweetParlourApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,17 +688,18 @@
 		};
 		5BBC2BD52449E97500022CEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8743A0453B0137368DA5B3F1 /* Pods-IvaSweetParlourApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N5JJCZ7Z7Z;
+				DEVELOPMENT_TEAM = CRW6VYDHKQ;
 				INFOPLIST_FILE = IvaSweetParlourApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Iva.IvaSweetParlourApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Iva.IvaSweetParlourApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,6 +708,7 @@
 		};
 		5BBC2BD72449E97500022CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7807D0025434761B6DC7284F /* Pods-IvaSweetParlourAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +731,7 @@
 		};
 		5BBC2BD82449E97500022CEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC7E69699EB008525440DD0 /* Pods-IvaSweetParlourAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +754,7 @@
 		};
 		5BBC2BDA2449E97500022CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE05D6A9AAAF02BD7D4A7EA /* Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +775,7 @@
 		};
 		5BBC2BDB2449E97500022CEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A7ADE198F41E27CD60EA23 /* Pods-IvaSweetParlourApp-IvaSweetParlourAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
